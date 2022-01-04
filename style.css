@@ -8,6 +8,7 @@ h1{
 }
 
 p{
+    font-size: 18px;
     color: dimgray;
 }
 
@@ -86,11 +87,13 @@ p{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
+    margin-right: 2%;
 }
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    margin-right: 2%;
 }
 footer p{
     text-align: center;
