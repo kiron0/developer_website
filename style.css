@@ -7,12 +7,17 @@ h1{
     font-size: 50px;
 }
 
+p{
+    color: dimgray;
+}
+
 .tomato-color{
     color: tomato;
 }
 
 .flexible-container{
     display: flex;
+    height: 500px;
     margin-bottom: 150px;
     padding: 10px;
 }
@@ -24,11 +29,13 @@ h1{
 
 .half-width{
     width: 50%;
+    float: left;
+    margin-left: 5%;
     padding-left: 2%;
 }
 
 .half-width img{
-    width: 75%;
+    width: 70%;
 }
 
 .link-button{
@@ -40,6 +47,31 @@ h1{
     border-radius: 5px;
 }
 
-footer{
+.mid-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-page{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-page div div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
     text-align: center;
 }
